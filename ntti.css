@@ -1133,6 +1133,7 @@ ol{
     .footer-wrapper{
         flex-direction: column;
         padding-left: 10px;
+        gap: 0px;
     }
 
     .useful-links li {
@@ -1211,7 +1212,8 @@ ol{
         left:11%;
     }
 
-        .videos iframe {
+    
+     .videos iframe {
            
             max-width: 350px;
             max-height: 190px;
