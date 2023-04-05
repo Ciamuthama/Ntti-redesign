@@ -7,6 +7,7 @@
     --button-hover:#3598db;
 }
 
+
 html{
     margin: 0px;
     padding: 0px;
@@ -17,7 +18,7 @@ html{
     line-height: 1.55rem;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden;*/
 }
 
 .navigation1{
@@ -31,9 +32,9 @@ html{
     right: 0px;
     margin-left: -10px;
     margin-right: -10px;
-    background-color:var(--back);
+    background-color: var(--back);
     padding: 10px;
-    font-family:'Nunito';
+    font-family: 'Nunito';
     letter-spacing: 1.15px;
     font-weight: 600;
     font-size: 12px;
@@ -67,7 +68,6 @@ html{
     left: 0;
     right: 0;
     z-index: 200;
-    border-top: 1px solid #65816de1;
 }
 
 .navigation-mobile{
@@ -419,7 +419,7 @@ button{
     text-align: center;
     background-color: #02243a80;
     width: 95%;
-    height: 99.7%;
+    height: 100%;
 }
 
 .text-top h1{
@@ -638,8 +638,8 @@ h3{
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    /* gap: 1px; */
+    /* width: 100%; */
+    gap: 1px;
     position: relative;
     margin-top:100px;
     align-items: start;
@@ -650,6 +650,7 @@ h3{
 
 .h2-wrapper{
     top: -22%;
+    left: 43%;
 }
 
 .facebook{
@@ -708,6 +709,8 @@ h3{
 footer{
     position: relative;
     height: 100%;
+    margin: -8px;
+    overflow: hidden;
 }
 
 footer p{
@@ -720,18 +723,18 @@ footer p{
     position: absolute;
     background: #283045;
     /* background: linear-gradient(to left, #01adf1, #ff00ff); */
-    width: 102%;
+    width: 100%;
     height: 100%;
     z-index: -2;
-    left: -10px;
+    /* left: -10px; */
     overflow: hidden;
 }
 
 .footer-wrapper{
     display: flex;
     width: 100%;
-    gap: 10px;
-    justify-content: space-between;
+    gap: 151px;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -804,7 +807,7 @@ ol{
     position: absolute;
     top: -16%;
     left: 0;
-    width: 100%;
+    width: 97%;
     height: 100%;
 }
 
@@ -1124,6 +1127,7 @@ ol{
 
     .h2-wrapper{
         top: -12%;
+        left: 30%;
     }
 
     .footer-wrapper{
@@ -1165,7 +1169,7 @@ ol{
     
     .intro{
         height: 70px;
-        width: 88%;
+        
     }
 
     .text-top h1{
