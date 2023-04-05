@@ -962,6 +962,7 @@ ol{
         align-items: flex-start;
         margin-left: 0px;
         gap: 0px;
+        padding: 10px;
     }
     li{
         position: relative;
