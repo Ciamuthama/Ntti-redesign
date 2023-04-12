@@ -437,8 +437,8 @@ button{
 
 .intro {
     position: absolute;
-    width: 89%;
-    height: 150px;
+    width: 90%;
+    height: 128px;
     overflow: hidden;
     top: 37%;
   }
@@ -449,18 +449,19 @@ button{
     font-weight: 700;
     line-height: 120%;
     
-  }
-  
+}
 
-  /* .intro .first-div{
-    animation: carouselAnimation 80s linear 10s infinite;
-  }
-  
-  .intro .second-div{
-    animation: carouselAnimation 80s linear 10s infinite;
-  }
-  
-   @keyframes carouselAnimation {
+.first-div{
+    position: relative;
+    top: -13%;
+}
+
+/* .intro div{
+    animation: carouselAnimation 80s linear 0s infinite;
+}
+
+
+@keyframes carouselAnimation {
     0% {
         transform: translateY(0);
     }
@@ -469,7 +470,7 @@ button{
     100% {
         transform: translateY(calc(40% - 20vw));
     }
-  }  */
+} */
 
 .courses-desktop{
     position: absolute;
@@ -786,6 +787,7 @@ ol{
 
 .kebs{
     line-height: 50%;
+    margin-left: 10px;
 }
 
 .kebs p{

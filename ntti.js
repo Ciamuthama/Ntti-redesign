@@ -2,21 +2,21 @@ window.onbeforeunload = function () {
 	window.scrollTo(0, 0);
 };
 
-var navbar1 = document.querySelector(".navigation1");
-var navbar2 = document.querySelector(".navigation2");
-var navMobile = document.querySelector(".mobile-wrapper");
+const navbar1 = document.querySelector(".navigation1");
+const navbar2 = document.querySelector(".navigation2");
+const navMobile = document.querySelector(".mobile-wrapper");
 
 navbar1.insertAdjacentHTML("afterend", '<div class="affix" id="affix"></div>');
 
-var affix = document.querySelector(".affix");
+const affix = document.querySelector(".affix");
 affix.appendChild(navbar2.cloneNode(false));
 
 // Show affix on scroll.
-var element = document.getElementById("affix");
+const element = document.getElementById("affix");
 if (element !== null) {
-	var position = navbar1.getBoundingClientRect().top + window.pageYOffset;
+	const position = navbar1.getBoundingClientRect().top + window.pageYOffset;
 	window.addEventListener("scroll", function () {
-		var height = window.pageYOffset;
+		const height = window.pageYOffset;
 		if (height > position) {
 			navbar1.style.display = "none";
 			navbar2.style.position = "fixed";
