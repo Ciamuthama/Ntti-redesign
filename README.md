@@ -50,8 +50,12 @@ Feel free to explore the codebase, make changes, and contribute to this project.
 ## Contributing
 🤝 Contributions are always welcome! If you would like to contribute to this project, please follow these guidelines:
 
-- 👯 Fork the repository and clone it to your local machine.
-- 🌿 Create a new branch for your feature or bug fix.
-- 📝 Make your changes and commit them with a descriptive commit message.
-- 📩 Push your changes to the branch on your forked repository.
-- 📤 Submit a pull request, explaining your changes and the problem they solve.
+ 👯 Fork the repository and clone it to your local machine.
+
+ 🌿 Create a new branch for your feature or bug fix.
+
+ 📝 Make your changes and commit them with a descriptive commit message.
+
+ 📩 Push your changes to the branch on your forked repository.
+
+ 📤 Submit a pull request, explaining your changes and the problem they solve.
