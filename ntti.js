@@ -11,7 +11,6 @@ navbar1.insertAdjacentHTML("afterend", '<div class="affix" id="affix"></div>');
 const affix = document.querySelector(".affix");
 affix.appendChild(navbar2.cloneNode(false));
 
-// Show affix on scroll.
 const element = document.getElementById("affix");
 if (element !== null) {
 	const position = navbar1.getBoundingClientRect().top + window.pageYOffset;
@@ -44,27 +43,19 @@ if (element !== null) {
 	});
 }
 
-//menu toggle
 function menuOpen() {
 	document.getElementById("navigation-mobile").classList.toggle("visible");
 }
 
-//About toggle
 function About() {
 	document.getElementById("about-mobile").classList.toggle("show");
 }
-
-//Department toggle
 function Department() {
 	document.getElementById("dept-mobile").classList.toggle("show");
 }
-
-//Management toggle
 function Management() {
 	document.getElementById("management-mobile").classList.toggle("show");
 }
-
-//Link toggle
 function Link() {
 	document.getElementById("link-mobile").classList.toggle("show");
 }
